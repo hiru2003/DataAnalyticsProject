@@ -1,0 +1,62 @@
+# Data Analysis Project
+
+## Overview
+This project contains exploratory data analysis (EDA) performed on a dataset using Python. The analysis includes data visualization, statistical summaries, and data quality checks.
+
+## Project Structure
+```
+.
+├── test.ipynb        # Main analysis notebook
+└── test.csv          # Source data file
+```
+
+## Requirements
+- Python 3.x
+- Required libraries:
+  - pandas
+  - numpy
+  - seaborn
+  - matplotlib
+
+## Features
+The notebook includes:
+- Data loading and initial exploration
+- Basic statistical analysis
+- Geographical distribution analysis
+- Age distribution visualization
+- Missing value analysis
+
+## Analysis Components
+1. **Data Loading**: CSV file reading using pandas
+2. **Exploratory Analysis**:
+   - Column information and data types
+   - Basic statistical descriptions
+   - Value counts for categorical variables
+3. **Visualizations**:
+   - Bar plots for age distribution
+   - General data visualization
+4. **Data Quality**:
+   - Null value checking
+   - Data type verification
+
+## Setup and Running
+1. Clone the repository
+2. Install required packages:
+```bash
+pip install pandas numpy seaborn matplotlib
+```
+3. Open `test.ipynb` in Jupyter Notebook or VS Code
+4. Run cells sequentially
+
+## Future Improvements
+- Add more detailed visualizations
+- Include correlation analysis
+- Add statistical testing
+- Implement predictive modeling
+
+
+## Author
+Hirusha Kariyawasam
+
+---
+Last Updated: August 27, 2025
